@@ -73,6 +73,8 @@ Every rep and number above is fictional. With `DRY_RUN=true` the header starts w
 
 ## Architecture
 
+![n8n HubSpot Sales Rep Activity Quota Scoreboard Workflow Overview](https://raw.githubusercontent.com/dhrobinsystems/n8n-hubspot-sales-rep-activity-quota-scoreboard/main/workflow-overview.png)
+
 ```
 Daily Cron (Mon–Fri 08:43) ─┐
 Manual Trigger ─────────────┴─► Config & Window  (resolveConfig, computeWindow, buildSearchBodies)
